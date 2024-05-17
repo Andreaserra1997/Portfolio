@@ -47,7 +47,7 @@ export default {
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <h3 class="title-a">Specializzazioni</h3>
+            <h3 class="title-a pt-3">Specializzazioni</h3>
             <div class="line-mf"></div>
           </div>
         </div>

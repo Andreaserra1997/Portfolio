@@ -7,7 +7,7 @@ export default {};
     id="mainNav"
   >
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Portfolio</a>
+      <a class="navbar-brand js-scroll" href="#home">Portfolio</a>
       <button
         class="navbar-toggler collapsed"
         type="button"
