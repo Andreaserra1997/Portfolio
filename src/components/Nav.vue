@@ -7,42 +7,26 @@ export default {};
     id="mainNav"
   >
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#home">Portfolio</a>
-      <button
-        class="navbar-toggler collapsed"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarDefault"
-        aria-controls="navbarDefault"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+      <a class="navbar-collapse collapse navbar-brand" href="#home"
+        >Portfolio</a
       >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div
-        class="navbar-collapse collapse justify-content-end"
-        id="navbarDefault"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">Chi Sono</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Specializzazioni</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#project">Progetti</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contatti</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#about">Chi Sono</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#service">Specializzazioni</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#project">Progetti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#contact">Contatti</a>
+        </li>
+      </ul>
     </div>
   </nav>
 </template>
