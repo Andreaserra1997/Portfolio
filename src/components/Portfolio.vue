@@ -5,7 +5,7 @@ export default {
       arrSpecial: [
         {
           title: "Web Design",
-          description: `Design web coinvolgente e intuitivo che cattura l'attenzione e guida gli utenti attraverso un'esperienza digitale fluida e memorabile.`,
+          description: `Design web coinvolgente, intuitivo e immersivo che attira l'attenzione e accompagna gli utenti attraverso un'esperienza digitale fluida e memorabile.`,
           icon: "fa-solid fa-display",
         },
         {

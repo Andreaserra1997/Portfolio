@@ -5,7 +5,7 @@ export default {};
 <template>
   <section
     class="paralax-mf footer-paralax bg-image sect-mt4 route"
-    style="background-image: url(../assets/A.jpeg)"
+    id="footer"
   >
     <div class="overlay-mf"></div>
     <div class="container">

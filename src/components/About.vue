@@ -75,7 +75,7 @@ export default {
             lavorare in gruppo, cogliendo il meglio da ogni situazione.
           </p>
         </div>
-        <div class="socials pt-0">
+        <div class="socials pt-0 pb-0">
           <ul class="d-flex justify-content-center">
             <li
               v-for="skill in arrSkill"
