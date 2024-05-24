@@ -47,7 +47,7 @@ export default {
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <h3 class="title-a pt-3">Specializzazioni</h3>
+            <h3 class="title-a pt-3">Competenze</h3>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -96,20 +96,12 @@ export default {
               <img :src="project.img" :alt="project.title" class="img-fluid" />
             </div>
             <div class="work-content">
-              <div class="row">
-                <div class="col-sm-8">
-                  <h2 class="w-title">{{ project.title }}</h2>
-                </div>
-                <div class="col-sm-4">
-                  <div class="w-like">
-                    <a :href="project.link">
-                      <span>
-                        <i class="fa-brands fa-github"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <h2 class="w-title">{{ project.title }}</h2>
+              <a :href="project.link">
+                <span>
+                  <i class="fa-brands fa-github" style="font-size: 2.5rem"></i>
+                </span>
+              </a>
             </div>
           </div>
         </div>

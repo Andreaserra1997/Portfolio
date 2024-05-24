@@ -6,7 +6,7 @@ export default {};
     class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
     id="mainNav"
   >
-    <div class="container">
+    <div class="container px-0">
       <a class="navbar-collapse collapse navbar-brand" href="#home"
         >Portfolio</a
       >
@@ -18,7 +18,7 @@ export default {};
           <a class="nav-link js-scroll" href="#about">Chi Sono</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#service">Specializzazioni</a>
+          <a class="nav-link js-scroll" href="#service">Competenze</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll" href="#project">Progetti</a>

@@ -49,12 +49,13 @@ export default {
 
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container pt-5">
-      <div class="box-shadow-full">
+      <div class="box-shadow-full pb-3">
+        <img src="../assets/Andrea.jpg" alt="Andrea" class="myimg" />
         <div class="title-box-2">
           <h5 class="title-left">Chi sono</h5>
         </div>
         <div class="about-me pt-4 pt-md-0">
-          <p class="lead">
+          <p class="lead" style="width: 80%">
             Sono un ragazzo che ha sempre cercato di sperimentare in ambito
             lavorativo, provando diversi lavori per trovare quello che più mi si
             addice. Con la programmazione mi sono finalmente sentito a mio agio
@@ -76,14 +77,14 @@ export default {
           </p>
         </div>
         <div class="socials pt-0 pb-0">
-          <ul class="d-flex justify-content-center">
+          <ul class="d-flex justify-content-center ps-0 icoabout">
             <li
               v-for="skill in arrSkill"
               :key="skill.icon"
               style="width: 100%"
-              class="d-flex justify-content-center"
+              class="d-flex justify-content-center pt-3"
             >
-              <span class="ico-circle">
+              <span class="about-circle">
                 <i :class="skill.icon"></i>
               </span>
             </li>
