@@ -12,19 +12,30 @@ export default {};
       >
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#home">Home</a>
+          <a class="nav-link js-scroll" href="#home"
+            ><span>Home</span> <i class="fa-solid fa-house navicon"></i
+          ></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#about">Chi Sono</a>
+          <a class="nav-link js-scroll" href="#about"
+            ><span>Chi Sono</span> <i class="fa-solid fa-user navicon"></i
+          ></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#service">Competenze</a>
+          <a class="nav-link js-scroll" href="#service"
+            ><span>Competenze</span>
+            <i class="fa-solid fa-list-check navicon"></i
+          ></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#project">Progetti</a>
+          <a class="nav-link js-scroll" href="#project"
+            ><span>Progetti</span> <i class="fa-solid fa-folder navicon"></i
+          ></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll" href="#contact">Contatti</a>
+          <a class="nav-link js-scroll" href="#contact"
+            ><span>Contatti</span> <i class="fa-solid fa-phone navicon"></i
+          ></a>
         </li>
       </ul>
     </div>
