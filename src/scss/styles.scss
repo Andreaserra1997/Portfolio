@@ -387,3 +387,12 @@ a:hover {
 #footer {
   background-image: url(../assets/A.jpeg);
 }
+
+@media (max-width: 768px) {
+  #footer .socials ul {
+    flex-direction: column;
+  }
+  #footer .socials li {
+    padding-bottom: 1rem;
+  }
+}

@@ -5,7 +5,7 @@ export default {
       arrLink: [
         {
           icon: "fa-solid fa-location-dot",
-          link: "https://github.com/Andreaserra1997",
+          link: "https://www.google.com/search?gs_ssp=eJzj4tDP1TdITs4zNWD0Yk_MSc9ILcoHADZWBds&q=alghero&rlz=1C1GCEA_enIT947IT947&oq=alghr&gs_lcrp=EgZjaHJvbWUqDwgBEC4YChiDARixAxiABDIGCAAQRRg5Mg8IARAuGAoYgwEYsQMYgAQyCQgCEC4YChiABDIPCAMQLhgKGIMBGLEDGIAEMhUIBBAuGAoYgwEYrwEYxwEYsQMYgAQyDwgFEAAYChiDARixAxiABDIPCAYQABgKGIMBGLEDGIAEMhIIBxAAGAoYgwEYsQMYgAQYigUyCQgIEAAYChiABNIBCDMyMjBqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8",
           text: "Alghero",
         },
         {
@@ -37,16 +37,17 @@ export default {
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
-        <div id="contact" class="box-shadow-full">
-          <div class="socials">
+        <div id="contact" class="box-shadow-full p-4">
+          <h5 class="title-left">Contatti</h5>
+          <div class="socials pt-5">
             <ul class="d-flex justify-content-between" style="list-style: none">
-              <li v-for="link in arrLink" :key="link.link">
+              <li v-for="link in arrLink" :key="link.link" class="d-flex">
                 <a :href="link.link">
                   <div class="ico-circle">
                     <i :class="link.icon"></i>
                   </div>
                 </a>
-                <p>{{ link.text }}</p>
+                <p class="my-auto">{{ link.text }}</p>
               </li>
             </ul>
           </div>
