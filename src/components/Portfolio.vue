@@ -21,17 +21,17 @@ export default {
       ],
       arrProject: [
         {
-          img: "/src/assets/B&B.png",
+          img: "./B&B.png",
           title: "B&B",
           link: "https://github.com/Andreaserra1997/BoolBnB-Front-End",
         },
         {
-          img: "/src/assets/Comics.jpeg",
+          img: "./Comics.jpeg",
           title: "Fumetti DC Comics",
           link: "https://github.com/Andreaserra1997/laravel-dc-comics",
         },
         {
-          img: "/src/assets/Whatsapp.jpeg",
+          img: "./Whatsapp.jpeg",
           title: "WhatsApp Web",
           link: "https://github.com/Andreaserra1997/vue-boolzapp",
         },
