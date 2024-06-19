@@ -50,7 +50,7 @@ export default {
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container pt-5">
       <div class="box-shadow-full pb-3">
-        <img src="../assets/Andrea.jpg" alt="Andrea" class="myimg" />
+        <img src="../assets/Andrea.jpg" alt="andrea" class="myimg" />
         <div class="title-box-2">
           <h5 class="title-left">Chi sono</h5>
         </div>
