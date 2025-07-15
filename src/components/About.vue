@@ -38,8 +38,7 @@ export default {
         <div class="container">
           <h1 class="intro-title mb-4">Andrea Serra</h1>
           <p class="intro-subtitle">
-            <span class="text-slider-items"
-              >Junior Full Stack Web Developer</span
+            <span class="text-slider-items">Full Stack Web Developer</span
             ><strong class="text-slider"></strong>
           </p>
         </div>
